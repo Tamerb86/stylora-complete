@@ -5,7 +5,7 @@ import { httpBatchLink, TRPCClientError } from "@trpc/client";
 import { createRoot } from "react-dom/client";
 import superjson from "superjson";
 import App from "./App";
-import { getLoginUrl } from "./const";
+import { getLoginUrl } from "./useAuth";
 import "./index.css";
 import { ThermalPrinterProvider } from "@/contexts/ThermalPrinterContext";
 import { UIModeProvider } from "@/contexts/UIModeContext";
